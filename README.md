@@ -3,7 +3,7 @@
 [개요]
 단말에서 네트워크로 전송한 시약 스트립지 이미지를 수신 받아 색상을 검출하는 서버 프로그램으로 MVC 패턴으로 구현됨. 
 
-- 프로그램명 : VS Server
+- 프로그램명 : VS Server ( https://blog.naver.com/tory0405/221532892508 )
 
 [개발환경]
 - Visual Studio 2013
