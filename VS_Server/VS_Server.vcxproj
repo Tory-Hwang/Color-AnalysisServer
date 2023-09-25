@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28E57080-D79F-4A39-8FA9-8E77D4B86EEF}</ProjectGuid>
+    <RootNamespace>VS_Server</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;Rpcrt4.lib;ijl15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>../ImageProcessing/LIB;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;Rpcrt4.lib;lib./Release./cximage.lib;lib./Release./jasper.lib;lib./Release./jbig.lib;ijl15.lib;lib./Release./jpeg.lib;lib./Release./png.lib;lib./Release./tiff.lib;lib./Release./zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>../ImageProcessing/LIB;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ImageProcessing\DIP\DIP.cpp" />
+    <ClCompile Include="..\ImageProcessing\DIP\DIP_Helper.cpp" />
+    <ClCompile Include="..\ImageProcessing\Img_Proc.cpp" />
+    <ClCompile Include="..\ImageProcessing\include\TK_CONF.cpp" />
+    <ClCompile Include="..\ImageProcessing\include\TK_LIB_Helper.cpp" />
+    <ClCompile Include="..\ImageProcessing\LPR\LPR.cpp" />
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_CHAR.cpp" />
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_COMMON.cpp" />
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_DIP.cpp" />
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_PLATE.cpp" />
+    <ClCompile Include="..\ImageProcessing\UTIL\WizardHelper.cpp" />
+    <ClCompile Include="Admin_Dlg.cpp" />
+    <ClCompile Include="Certify.cpp" />
+    <ClCompile Include="Login_Dlg.cpp" />
+    <ClCompile Include="Search_Dlg.cpp" />
+    <ClCompile Include="SortString.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VS_Server.cpp" />
+    <ClCompile Include="VS_ServerDlg.cpp" />
+    <ClCompile Include="TCPClient.cpp" />
+    <ClCompile Include="TCPClientManager.cpp" />
+    <ClCompile Include="TCPServer.cpp" />
+    <ClCompile Include="UDPClient.cpp" />
+    <ClCompile Include="DBManager.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="QueryProcessor.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="MsgController.cpp" />
+    <ClCompile Include="TinyWindow.cpp" />
+    <ClCompile Include="ADO.cpp" />
+    <ClCompile Include="SVR_Doc.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="Packet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ImageProcessing\DIP\DIP.h" />
+    <ClInclude Include="..\ImageProcessing\DIP\DIP_Helper.h" />
+    <ClInclude Include="..\ImageProcessing\Img_Proc.h" />
+    <ClInclude Include="..\ImageProcessing\include\TK_CONF.h" />
+    <ClInclude Include="..\ImageProcessing\include\TK_TYPE.h" />
+    <ClInclude Include="..\ImageProcessing\INC\TK_LIB_Helper.h" />
+    <ClInclude Include="..\ImageProcessing\INC\TK_UT_LIST.h" />
+    <ClInclude Include="..\ImageProcessing\LPR\LPR.h" />
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_CHAR.h" />
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_COMMON.h" />
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_DIP.h" />
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_PLATE.h" />
+    <ClInclude Include="..\ImageProcessing\UTIL\ALPRWizard_Def.h" />
+    <ClInclude Include="..\ImageProcessing\UTIL\ijl.h" />
+    <ClInclude Include="..\ImageProcessing\UTIL\WizardHelper.h" />
+    <ClInclude Include="Admin_Dlg.h" />
+    <ClInclude Include="Certify.h" />
+    <ClInclude Include="Login_Dlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Search_Dlg.h" />
+    <ClInclude Include="SortString.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="VS_Server.h" />
+    <ClInclude Include="VS_ServerDlg.h" />
+    <ClInclude Include="TCPClient.h" />
+    <ClInclude Include="TCPClientManager.h" />
+    <ClInclude Include="TCPServer.h" />
+    <ClInclude Include="UDPClient.h" />
+    <ClInclude Include="DBManager.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="QueryProcessor.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="MsgController.h" />
+    <ClInclude Include="IClient.h" />
+    <ClInclude Include="IController.h" />
+    <ClInclude Include="IModel.h" />
+    <ClInclude Include="ITransfer.h" />
+    <ClInclude Include="IViewer.h" />
+    <ClInclude Include="ITinyWindow.h" />
+    <ClInclude Include="TinyWindow.h" />
+    <ClInclude Include="ADO.h" />
+    <ClInclude Include="Com_Def.h" />
+    <ClInclude Include="Com_Object_Def.h" />
+    <ClInclude Include="CONTROLS_DEF.h" />
+    <ClInclude Include="DB_Def.h" />
+    <ClInclude Include="SVR_Doc.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="Packet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\glade.bmp" />
+    <Image Include="res\green.bmp" />
+    <Image Include="res\red.bmp" />
+    <Image Include="res\VS_Server.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VS_Server.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VS_Server.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="VS_Server.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

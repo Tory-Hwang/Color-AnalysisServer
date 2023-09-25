@@ -1,0 +1,14 @@
+[basic]
+verify=angel
+ssid=KT_GiGA_2G_Wave2_358B
+auth_key=8cfd9he632
+server_ip=172.30.1.43
+server_port=2000
+aws_host=aml8kg126y74s-ats.iot.ap-northeast-2.amazonaws.com
+aws_port=8883
+
+
+
+
+172.30.1.32
+

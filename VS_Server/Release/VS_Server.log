@@ -1,0 +1,251 @@
+﻿  stdafx.cpp
+  DIP.cpp
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(13,20): error C2371: 'int16_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(15): message : 'int16_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(17,22): error C2371: 'uint16_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(19): message : 'uint16_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(21,25): error C2371: 'int32_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(16): message : 'int32_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(25,27): error C2371: 'uint32_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(20): message : 'uint32_t' 선언을 참조하십시오.
+  DIP_Helper.cpp
+  Img_Proc.cpp
+  TK_CONF.cpp
+  TK_LIB_Helper.cpp
+  LPR.cpp
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(13,20): error C2371: 'int16_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(15): message : 'int16_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(17,22): error C2371: 'uint16_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(19): message : 'uint16_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(21,25): error C2371: 'int32_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(16): message : 'int32_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(25,27): error C2371: 'uint32_t': 재정의. 기본 형식이 다릅니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(20): message : 'uint32_t' 선언을 참조하십시오.
+  LPR_CHAR.cpp
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(28,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(29,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(30,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(36,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(37,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(40,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(41,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(42,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(44,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(45,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(46,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(55,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(56,36): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(63,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(65,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(67,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(68,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(71,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(72,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(81,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(82,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(83,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(89,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(90,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(93,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(94,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(97,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(98,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(99,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(101,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(102,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(108,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(109,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(112,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(117,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(118,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(120,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(121,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(122,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(124,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(125,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(126,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(135,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(136,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(138,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(139,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(142,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(143,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(144,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(146,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(147,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(148,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(150,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(151,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(152,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(154,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(155,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(156,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(168,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(169,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(170,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(186,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(187,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(188,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(190,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(191,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(194,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(195,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(196,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(198,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(199,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(200,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(202,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(203,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(206,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(207,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(212,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(213,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(216,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(217,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(220,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(221,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(222,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(224,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(225,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(226,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(228,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(229,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(230,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(238,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(239,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(240,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(242,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(243,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(244,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(246,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(247,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(250,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(251,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(252,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(254,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(255,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(256,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(258,38): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(259,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(260,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(264,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(265,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(272,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(273,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(276,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(277,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(278,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(280,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(281,37): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(282,39): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(306,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(318,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(325,46): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(329,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(367,22): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(348,22): warning C4101: 'Sum_I' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(349,16): warning C4101: 'Mean_S' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(349,24): warning C4101: 'Mean_I' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(348,8): warning C4101: 'Sum_H' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(349,8): warning C4101: 'Mean_H' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(346,21): warning C4101: 'nWCent' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(346,12): warning C4101: 'nHCent' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(348,15): warning C4101: 'Sum_S' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(511,16): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(512,16): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(538,19): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_CHAR.cpp(539,19): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LPR_COMMON.cpp
+  LPR_DIP.cpp
+  LPR_PLATE.cpp
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_PLATE.cpp(354,24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_PLATE.cpp(389,36): warning C4101: 'nCenter' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\LPR\LPR_PLATE.cpp(599,27): warning C4101: 'nCandidateCnt' :참조되지 않은 지역 변수입니다.
+  WizardHelper.cpp
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(361,19): warning C4101: 'bmInfoHeader' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(360,19): warning C4101: 'bmiFileHeader' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1006,8): warning C4101: 'tcText' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1005,15): warning C4101: 'nWidth' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1005,6): warning C4101: 'nHeight' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1004,7): warning C4101: 'TextRect' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1061,30): warning C4101: 'nBottom2' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1061,23): warning C4101: 'nTop2' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1061,14): warning C4101: 'nRight2' :참조되지 않은 지역 변수입니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\UTIL\WizardHelper.cpp(1061,6): warning C4101: 'nLeft2' :참조되지 않은 지역 변수입니다.
+  Admin_Dlg.cpp
+  Certify.cpp
+  Login_Dlg.cpp
+  Search_Dlg.cpp
+  SortString.cpp
+  VS_Server.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(15,28): error C2371: 'int16_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(13): message : 'int16_t' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(16,28): error C2371: 'int32_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(21): message : 'int32_t' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(19,28): error C2371: 'uint16_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(17): message : 'uint16_t' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(20,28): error C2371: 'uint32_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(25): message : 'uint32_t' 선언을 참조하십시오.
+  VS_ServerDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(15,28): error C2371: 'int16_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(13): message : 'int16_t' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(16,28): error C2371: 'int32_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(21): message : 'int32_t' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(19,28): error C2371: 'uint16_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(17): message : 'uint16_t' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\stdint.h(20,28): error C2371: 'uint32_t': 재정의. 기본 형식이 다릅니다.
+D:\01_Dev\VS_Server\VS_Server\ImageProcessing\include\TK_UT_LIST.h(25): message : 'uint32_t' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(262,42): warning C4309: '인수': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(263,42): warning C4309: '인수': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(264,42): warning C4309: '인수': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(529,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(554,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(595,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(621,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(626,12): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(663,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(699,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(757,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(836,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(917,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(938,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(959,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(1393,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(1542,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(1578,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(1648,24): warning C4309: '=': 상수 값이 잘립니다.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(3852,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831): message : 'inet_addr' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(3945,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831): message : 'inet_addr' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(3947,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831): message : 'inet_addr' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\VS_ServerDlg.cpp(4051,24): warning C4309: '=': 상수 값이 잘립니다.
+  TCPClient.cpp
+D:\01_Dev\VS_Server\VS_Server\VS_Server\TCPClient.cpp(672,19): warning C4309: '=': 상수 값이 잘립니다.
+  TCPClientManager.cpp
+D:\01_Dev\VS_Server\VS_Server\VS_Server\TCPClientManager.cpp(224,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1849): message : 'inet_ntoa' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\TCPClientManager.cpp(241,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831): message : 'inet_addr' 선언을 참조하십시오.
+  컴파일하고 있습니다...
+  TCPServer.cpp
+D:\01_Dev\VS_Server\VS_Server\VS_Server\TCPServer.cpp(102,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831): message : 'inet_addr' 선언을 참조하십시오.
+D:\01_Dev\VS_Server\VS_Server\VS_Server\TCPServer.cpp(172,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1849): message : 'inet_ntoa' 선언을 참조하십시오.
+  UDPClient.cpp
+D:\01_Dev\VS_Server\VS_Server\VS_Server\UDPClient.cpp(257,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WinSock2.h(1831): message : 'inet_addr' 선언을 참조하십시오.
+  DBManager.cpp
+  FileManager.cpp
+  QueryProcessor.cpp
+  Controller.cpp
+  MsgController.cpp
+  TinyWindow.cpp
+  ADO.cpp
+  SVR_Doc.cpp
+  Util.cpp
+  Message.cpp
+D:\01_Dev\VS_Server\VS_Server\VS_Server\Message.cpp(113,19): warning C4244: '=': 'time_t'에서 '__time32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Packet.cpp

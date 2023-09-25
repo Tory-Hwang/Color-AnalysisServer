@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Transfer">
+      <UniqueIdentifier>{00e39038-6039-450c-ab3c-029d3c3fcd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{069dbdf5-a993-437d-86e8-506decaad4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{1fba3d4e-aeda-450c-87d5-73accf8875d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{93233c1e-4f72-442b-964f-dfb96b24b3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyWindow">
+      <UniqueIdentifier>{5fc9ec49-d861-47a2-b9c5-d45e9a3ab243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0d61bd96-70d7-4fa6-9f5e-1eb25e3088fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{843c655d-c6bb-44b8-9133-23453d3e2e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcessing">
+      <UniqueIdentifier>{cd9e2653-912c-41cd-80fb-60ff3719678f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcessing\Head">
+      <UniqueIdentifier>{9ed54b71-4c56-4cb1-8a11-09f1681e9980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcessing\Source">
+      <UniqueIdentifier>{86779aaf-c004-4220-a8f4-71e09d13239f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Admin_Dlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Certify.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Login_Dlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Search_Dlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SortString.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VS_Server.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VS_ServerDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>Transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClientManager.cpp">
+      <Filter>Transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPServer.cpp">
+      <Filter>Transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPClient.cpp">
+      <Filter>Transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryProcessor.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyWindow.cpp">
+      <Filter>TinyWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ADO.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SVR_Doc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\DIP\DIP.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\DIP\DIP_Helper.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\LPR\LPR.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_CHAR.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_COMMON.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_DIP.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\LPR\LPR_PLATE.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\Img_Proc.cpp">
+      <Filter>ImageProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\UTIL\WizardHelper.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\include\TK_CONF.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageProcessing\include\TK_LIB_Helper.cpp">
+      <Filter>ImageProcessing\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin_Dlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Certify.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Login_Dlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Search_Dlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SortString.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VS_Server.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VS_ServerDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClient.h">
+      <Filter>Transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClientManager.h">
+      <Filter>Transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPServer.h">
+      <Filter>Transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPClient.h">
+      <Filter>Transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryProcessor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="IClient.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IController.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IModel.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ITransfer.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewer.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ITinyWindow.h">
+      <Filter>TinyWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyWindow.h">
+      <Filter>TinyWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ADO.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Com_Def.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Com_Object_Def.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTROLS_DEF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DB_Def.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SVR_Doc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\DIP\DIP.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\LPR\LPR.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_CHAR.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_COMMON.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_DIP.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\LPR\LPR_PLATE.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\INC\TK_LIB_Helper.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\INC\TK_UT_LIST.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\DIP\DIP_Helper.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\Img_Proc.h">
+      <Filter>ImageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\UTIL\ijl.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\UTIL\WizardHelper.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\UTIL\ALPRWizard_Def.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\include\TK_CONF.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageProcessing\include\TK_TYPE.h">
+      <Filter>ImageProcessing\Head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\VS_Server.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\glade.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\green.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\red.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VS_Server.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VS_Server.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
